@@ -6,7 +6,7 @@
 
     <groupId>com.github.thibstars</groupId>
     <artifactId>more-jpa-converters</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <name>more-jpa-converters</name>
     <description>Some more JPA converters that can be used out of the box.</description>
