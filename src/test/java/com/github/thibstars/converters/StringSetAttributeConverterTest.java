@@ -36,7 +36,7 @@ class StringSetAttributeConverterTest {
         Assertions.assertEquals(
                 DB_REPRESENTATION,
                 converter.convertToDatabaseColumn(ENTITY_REPRESENTATION),
-                "Result must be values separated by ','."
+                "Result must be values in a Json array format."
         );
     }
 
@@ -50,7 +50,7 @@ class StringSetAttributeConverterTest {
         Assertions.assertEquals(
                 ENTITY_REPRESENTATION,
                 converter.convertToEntityAttribute(DB_REPRESENTATION),
-                "Result must be values separated by ','."
+                "Result must be values in a sequenced set."
         );
     }
 }
