@@ -13,7 +13,6 @@
 
     <packaging>jar</packaging>
 
-
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -56,7 +55,6 @@
             <version>${junit-platform-launcher.version}</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
 </project>
